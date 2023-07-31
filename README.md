@@ -7,6 +7,7 @@ Create ground truth voxblox TSDF maps from
 Make sure that [voxblox](https://github.com/ethz-asl/voxblox#table-of-contents) and [gazebo](http://gazebosim.org/tutorials?tut=ros_installing) are installed, then run
 ```bash
 cd ~/catkin_ws
+c++ 17
 catkin build voxblox_ground_truth
 source devel/setup.bash
 ```
